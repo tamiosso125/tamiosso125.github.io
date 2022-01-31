@@ -11,7 +11,7 @@ body{
   background-color: azure;
 }
 
-.l1{
+/* .l1{
   font-size: x-large;
 }
 .l2{
@@ -22,10 +22,28 @@ body{
 }
 .l4{
   font-size: 30px;
-}
+} */
 
 #idImagem{
 border-radius: 20%; 
- 
+ position: absolute;
+ left: 50px;
+}
+
+#divIdDescricao{
+position: absolute;
+text-align: center;
+left: 500px;
+background-color: orange;
+top: 26%;
+padding: 20px;
+}
+
+#divIdListaDeCapacidades{
+  position: absolute;
+  top: 47%;
+  left: 15%;
+  font-size: 140%;
+
 }
 
