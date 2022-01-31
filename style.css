@@ -1,6 +1,7 @@
 
 h1{
  font-family: monospace;
+ text-align: center;
    
 }
 p{
@@ -11,7 +12,7 @@ body{
   background-color: azure;
 }
 
-.l1{
+/* .l1{
   font-size: x-large;
 }
 .l2{
@@ -22,6 +23,44 @@ body{
 }
 .l4{
   font-size: 30px;
+} */
+
+#idImagem{
+  border-radius: 20%; 
+  position: absolute;
+  left: 50px;
+  padding: 20px;
+  background-color: orange;
+ 
 }
 
+#divIdDescricao{
+  position: absolute;
+  text-align: center;
+  left: 500px;
+  background-color: orange;
+  top: 26%;
+  padding: 35px;
+  padding-bottom: 50px;
+  border-radius: 50%; 
+  margin-left: 10px;
+}
 
+#divIdListaDeCapacidades{
+  position: absolute;
+  top: 47%;
+  left: 15%;
+  font-size: 140%;
+ 
+
+}
+
+/* #idOlCapacidade:nth-child(odd){
+  font-style: italic;
+  color:  red;
+} */
+#divIdListaDeCapacidades ol li:nth-child(odd) {
+ 
+  font-style: italic;
+ 
+}
